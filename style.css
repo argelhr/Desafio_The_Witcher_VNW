@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Montserrat", "Regular";
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.universo {
+    font-size: bold;
+    font: 1rem sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/back_fire.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* todo o menu */
+header {
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* header div */
+.inicio {
+    display: flex;
+    height: 16vh;
+    width: 24vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* logo com texto de projeto vermelho */
+.inicio img {
+    width: 6vh;
+}
+
+/* lista */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100vh;
+}
+
+li {
+    text-decoration: none;
+}
+
+/* todo o conteudo abaixo do menu */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* div com a imagem do Gerald */
+#geraldao {
+    display: flex;
+    height: 82vh;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items:flex-end;
+    background-image: url('./assets/geraldao.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30vw;
+}
+
+/* div com as duas imagens, sendo "the witcher" e o "botao" */
+.imagens{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+/* imagem do logo do jogo */
+#witcher {
+    width: 65%;
+}
+
+#botao {
+    width: 60%;
+}
